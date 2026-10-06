@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfólio Tecnológico | NPT</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="topo">
+    <a href="index.html" class="sigla">NPT</a>
+  </header>
+
+  <main class="hero">
+    <!-- Título -->
+    <section class="titulo">
+      <h1>Portfólio<br />Tecnológico</h1>
+      <span class="linha"></span>
+      <h2>Novos Produtos Tributários</h2>
+    </section>
+
+    <!-- Menu de projetos -->
+    <nav class="menu">
+      <h3>Projetos</h3>
+      <ul id="lista-categorias"></ul>
+    </nav>
+
+    <!-- Painel flutuante com os projetos da categoria -->
+    <aside id="painel" class="painel" aria-hidden="true">
+      <header>
+        <h4 id="painel-titulo"></h4>
+        <button class="fechar" id="fechar-painel" aria-label="Fechar">&times;</button>
+      </header>
+      <p id="painel-desc" class="painel-desc"></p>
+      <ul id="painel-projetos"></ul>
+    </aside>
+  </main>
+
+  <script src="fundo.js"></script>
+  <script src="data.js"></script>
+  <script src="comum.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
